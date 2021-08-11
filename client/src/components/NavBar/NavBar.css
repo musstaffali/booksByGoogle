@@ -1,0 +1,13 @@
+.navbardesign {
+    background-color: #EC7427;
+}
+
+.nav-link {
+    border: 2px solid white;
+    text-align: center;
+    margin-left: 15px;
+    width: 120px;
+    border-radius: 20px;
+    color: #EB9B06;
+    background-color: #165BAE;
+}

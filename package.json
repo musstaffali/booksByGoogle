@@ -1,7 +1,7 @@
 {
-  "name": "googlebooks",
+  "name": "mern",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "Mern Demo",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,28 +12,19 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/musstaffali/booksByGoogle.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/musstaffali/booksByGoogle/issues"
-  },
-  "homepage": "https://github.com/musstaffali/booksByGoogle#readme",
   "devDependencies": {
-    "concurrently": "^6.2.1",
-    "nodemon": "^2.0.12"
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.13.7",
-    "react": "^17.0.2",
+    "react": "^16.13.1",
     "react-router-dom": "^5.2.0"
   }
 }
